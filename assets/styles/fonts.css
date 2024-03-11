@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: local('KumbhSans-Thin'),
+       url('../fonts/woff2/KumbhSans-Thin.woff2') format('woff2'),
+       url('../fonts/ttf/KumbhSans-Thin.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: local('KumbhSans-Regular'),
+       url('../fonts/woff2/KumbhSans-Regular.woff2') format('woff2'),
+       url('../fonts/ttf/KumbhSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: local('KumbhSans-Medium'),
+       url('../fonts/woff2/KumbhSans-Medium.woff2') format('woff2'),
+       url('../fonts/ttf/KumbhSans-Medium.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: local('KumbhSans-Bold'),
+       url('../fonts/woff2/KumbhSans-ExtraBold.woff2') format('woff2'),
+       url('../fonts/ttf/KumbhSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+
+/*-----------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter-Regular'),
+       url('../fonts/woff2/Inter-Regular.woff2') format('woff2'),
+       url('../fonts/ttf/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}

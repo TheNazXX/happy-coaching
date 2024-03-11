@@ -1,0 +1,94 @@
+@media(max-width: 1280px){
+  .main-left .main-inner{
+    text-align: center;
+  }
+  
+  .main-left .form{
+   margin: 38px auto 0;
+  }
+}
+
+
+@media(max-width: 970px){
+  .main{
+    display: block;
+  }
+
+
+  .main-left .main-inner{
+    padding: 30px 15px;
+    max-width: 100%;
+    margin-right: auto;
+  }
+
+  .main-right .info{
+    margin-left: auto;
+  }
+}
+
+
+@media(max-width: 820px){
+  .menu{
+    display: none;
+  }
+
+  .main{
+    margin-top: 60px;
+  }
+
+  .burgerMenu{
+    display: flex;
+  }
+
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+  }
+}
+
+@media(max-width: 730px){
+  .title{
+    font-size: 36px;
+    line-height: 39px;
+  }
+
+  .text{
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+@media(max-width: 580px){
+  .title{
+    font-size: 26px;
+    line-height: 29px;
+  }
+  
+  .info{
+    max-width: 100%;
+    padding: 30px 20px 20px;
+  }
+
+  .info-circle{
+    right: 50px;
+    top: 50px;
+  }
+
+  .info-title{
+    font-size: 36px;
+    line-height: 55px;
+  }
+
+  .reviews-head{
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
