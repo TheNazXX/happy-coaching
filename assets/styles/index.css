@@ -121,6 +121,7 @@ button{
   padding: 10px 0;
 }
 
+
 /*--------------------burgerMenu--------------------*/
 
 .burgerMenu{
@@ -359,6 +360,7 @@ button{
 
 
 /*--------------------------------------*/
+
 .main-inner{
   padding: 70px 0;
 }
@@ -475,6 +477,7 @@ button{
 /*---------------sidebar-menu-------------------------*/
 
 .sidebar-menu{
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -496,7 +499,6 @@ button{
 }
 
 .sidebar-menu-title{
-
   margin-bottom: 25px;
   padding-bottom: 10px;
   color: white;
@@ -515,7 +517,6 @@ button{
   width: 250px;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(5px);
-
   transition: all .1s ease-in;
 }
 
